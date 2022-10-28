@@ -130,7 +130,6 @@ img {
  ************************************************/
 
 
-/* !desktop-first */
 
 /* //da 768px in giù--> TABLET */
 
@@ -157,20 +156,16 @@ img {
         margin-bottom: 3rem;
     }
 
-    .lessons .col{
-        width: 100%;
-    }
-
-    .steps .col{
-        width: 100%;
-    }
-
-    .why-us .col-left{
-        width: 100%;
-    }
-
+    .lessons .col,
+    .steps .col,
+    .why-us .col-left,
     .why-us .col-right{
         width: 100%;
     }
+}
 
+@media screen and (min-width: 768px), (max-width: 1160px) {
+    .container{
+        width: 100%;
+    }
 }
