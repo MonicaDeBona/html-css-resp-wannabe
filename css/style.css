@@ -153,19 +153,20 @@ img {
         width: 100%;
     }
 
+    .row .col:not(:last-child){
+        margin-bottom: 3rem;
+    }
+
     .lessons .col{
         width: 100%;
-        margin-bottom: 3rem;
     }
 
     .steps .col{
         width: 100%;
-        margin-bottom: 3rem;
     }
 
     .why-us .col-left{
         width: 100%;
-        margin-bottom: 3rem;
     }
 
     .why-us .col-right{
